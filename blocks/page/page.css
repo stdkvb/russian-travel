@@ -1,0 +1,11 @@
+.page {
+    font-family: "Inter";
+    background-color: #2A2C2F;
+    min-width: 1280px;
+}
+
+/*цвет для всего текста*/
+h1, h2, h3, p, a, ul, span {
+    color: #ffffff;
+}
+

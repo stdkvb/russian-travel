@@ -1,0 +1,4 @@
+.place__text-area {
+    width: 484px;
+    grid-area: text-area;
+}

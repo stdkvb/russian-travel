@@ -1,0 +1,6 @@
+.header {
+    width: 1184px;
+    margin: 28px auto 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
