@@ -1,5 +1,5 @@
 .intro__text {
-    width: 690px;
+    max-width: 690px;
     margin: 60px 0 0 0;
     font-style: normal;
     font-weight: normal;
