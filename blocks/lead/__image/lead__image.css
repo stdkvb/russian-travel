@@ -1,5 +1,17 @@
 .lead__image {
-    width: 984px;
-    height: 615px;
+    width: 100%;
+    padding-bottom: 100%;
     margin: 64px auto 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .lead__image {
+        margin-top: 40px;
+    }
 }
