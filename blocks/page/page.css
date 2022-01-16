@@ -1,7 +1,8 @@
 .page {
     font-family: "Inter";
     background-color: #2A2C2F;
-    min-width: 1280px;
+    margin: 0 auto 0 auto;
+    max-width: 1280px;
 }
 
 /*цвет для всего текста*/
