@@ -1,4 +1,11 @@
 .place__text-area {
-    width: 484px;
+    max-width: 100%;
     grid-area: text-area;
+}
+
+@media screen and (max-width: 767px) {
+    .place__text-area {
+        max-width: calc(100% - 2*16px);
+        margin: 0 auto 0 auto;
+    }
 }
