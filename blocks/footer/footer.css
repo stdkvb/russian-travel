@@ -1,7 +1,17 @@
 .footer {
-    width: 1184px;
+    max-width: calc(100% - 2*48px);
     margin: 92px auto 24px auto;
     display: grid;
     grid-template-columns: 50px 57px 94px 86px 106px 1fr;
     gap: 18px;
+}
+
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: calc(100% - 2*24px);
+        grid-template-columns: 1fr;
+        grid-row-gap: 32px;
+        justify-content: flex-start;
+        margin-top: 64px;
+    }    
 }
