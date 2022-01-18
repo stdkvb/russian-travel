@@ -2,7 +2,7 @@
 
 #### Проектная работка курса от [ЯндексПрактикум](https://practicum.yandex.ru)
 
-#### [посмотреть на GitHub Pages]()
+#### [посмотреть на GitHub Pages](https://stdkvb.github.io/russian-travel/)
 
 ##### Использованные технологии
 * организация файлов по БЭМ
