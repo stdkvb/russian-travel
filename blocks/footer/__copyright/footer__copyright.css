@@ -9,7 +9,7 @@
 @media screen and (max-width: 767px) {
     .footer__copyright {
         justify-self: start;
-        line-height: 100%; 
+        line-height: 100%;
         margin-top: 16px;
     }
     
