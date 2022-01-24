@@ -1,14 +1,10 @@
 .page {
-    font-family: "Inter", Arial, Helvetica, sans-serif;
+    font-family: "Inter", Arial, Helvetica, sans-serif;    
+    color: #ffffff;
     background-color: #2A2C2F;
     margin: 0 auto 0 auto;
     max-width: 1280px;
     min-width: 320px;
-    text-rendering: optimizeLegibility; 
-}
-
-/*цвет для всего текста*/
-h1, h2, h3, p, a, ul, span {
-    color: #ffffff;
+    text-rendering: optimizeLegibility;
 }
 

@@ -6,7 +6,7 @@
     line-height: 114%;  
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 700px) {
     .footer__copyright {
         justify-self: start;
         line-height: 100%;
