@@ -1,9 +1,8 @@
 .footer {
     max-width: calc(100% - 2*48px);
     margin: 92px auto 24px auto;
-    display: grid;
-    grid-template-columns: 50px 57px 94px 86px 106px 1fr;
-    gap: 18px;
+    display: flex;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 768px) {
@@ -14,9 +13,9 @@
 
 @media screen and (max-width: 700px) {
     .footer {
-        grid-template-columns: 1fr;
-        grid-row-gap: 32px;
-        justify-content: flex-start;
+        max-width: calc(100% - 2*16px);
+        flex-direction: column;
         margin-top: 64px;
     }
 }
+

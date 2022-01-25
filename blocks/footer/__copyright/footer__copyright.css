@@ -1,5 +1,4 @@
 .footer__copyright {
-    justify-self: end;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -8,9 +7,8 @@
 
 @media screen and (max-width: 700px) {
     .footer__copyright {
-        justify-self: start;
         line-height: 100%;
-        margin-top: 16px;
+        margin-top: 48px;
     }
     
 }
